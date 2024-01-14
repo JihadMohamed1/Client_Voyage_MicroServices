@@ -5,5 +5,5 @@ public record ClientDto(
         String prenom,
         Integer num,
         String email,
-        Integer IdVoyage
+        Integer id_voyage
                         ) { }

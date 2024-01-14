@@ -31,7 +31,7 @@ public class ClientService {
         client.setPrenom(clientDto.prenom());
         client.setEmail(clientDto.email());
         client.setNum(clientDto.num());
-        client.setIdVoyage(clientDto.IdVoyage());
+        client.setId_voyage(clientDto.id_voyage());
         clientRepo.save(client);
     }
 
@@ -41,7 +41,7 @@ public class ClientService {
         client.setPrenom(clientDto.prenom());
         client.setEmail(clientDto.email());
         client.setNum(clientDto.num());
-        client.setIdVoyage(clientDto.IdVoyage());
+        client.setId_voyage(clientDto.id_voyage());
         clientRepo.save(client);
     }
 }
